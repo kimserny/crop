@@ -87,6 +87,7 @@ h2 {
     height: 100%;
     display: block;
     margin: auto;
+    padding-top: 4vh;
     padding-bottom: 6vh;
     position: relative;
     opacity: 1;
@@ -101,7 +102,7 @@ h2 {
 
 
 #phonediv {
-    height: 52%;
+    height: 50%;
     display: auto;
     -webkit-transition: height 1s ease-out;
     transition: height 1s ease-out;
@@ -122,11 +123,11 @@ h2 {
     position:absolute;
     display: block;
     margin: 0 auto;
-    top: 42%;
+    top: 46%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    height: 38%;
+    height: 35%;
 }
 
 /*****************/
