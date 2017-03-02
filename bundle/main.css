@@ -115,7 +115,7 @@ h2 {
 }
 
 #phonediv.small {
-    height: 45%;
+    height: 5%;
     transition: height 0.5s ease-out;
     transition-delay: 0.7s;
 }
@@ -130,7 +130,6 @@ h2 {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     height: 38%;
-    /*animation: nudge 8s ease-in infinite alternate;*/ 
 }
 
 /*****************/
@@ -167,7 +166,7 @@ label
     min-width: 175px;
     text-align: center;
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 2% auto 0 auto;
     padding-top: 7px;
     background-color:#6a2d90;
 }
@@ -177,12 +176,8 @@ label:hover {
 }
 .start-screen__result
 {
-    position: absolute;
     width: 100%;
-    top: 43%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -57%);
-            transform: translate(-50%, -57%);
+    margin: auto;
     padding: 0 20px;
     z-index: 100;
 }
@@ -228,6 +223,7 @@ label:hover {
     font-size: 0;
     line-height: 0;
     text-align: center;
+    margin-bottom: 5vh;
 }
 
 
@@ -247,7 +243,8 @@ label:hover {
 
 .please-wait
 {
-    
+    display: block;
+    margin: 50vh auto auto auto;
 }
 
 /*****************/
